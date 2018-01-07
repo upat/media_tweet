@@ -76,4 +76,4 @@ req_media = twitter.post(url_text, params = text)
 if req_media.status_code == 200:
     print('Tweet Succeed.')
 else:
-    print("ERROR: %d" % req.status_code)
+    print("ERROR: %d" % req_media.status_code)
